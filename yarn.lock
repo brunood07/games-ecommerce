@@ -5352,6 +5352,11 @@ data-urls@^3.0.1:
     whatwg-mimetype "^3.0.0"
     whatwg-url "^11.0.0"
 
+date-fns@^2.29.2:
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.2.tgz#0d4b3d0f3dff0f920820a070920f0d9662c51931"
+  integrity sha512-0VNbwmWJDS/G3ySwFSJA3ayhbURMTJLtwM2DTxf9CWondCnh6DTNlO9JgRSq6ibf4eD0lfMJNBxUdEAHHix+bA==
+
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -9716,6 +9721,11 @@ os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
   integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
+
+osf-utils@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/osf-utils/-/osf-utils-1.0.0.tgz#0148b10fa134876b3f8935229c79bf9c047f0284"
+  integrity sha512-9tqbaE9we/RnyVu+m6tFRkKXvWLOBQgGwo+8MH7K9z5hKDCoi6YVTfLsc8x3rMDE6CGhr7AewPe6aIyhcjXXPw==
 
 p-all@^2.1.0:
   version "2.1.0"

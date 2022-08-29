@@ -6,7 +6,7 @@ const Template: Story = (args) => <Main {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  title: 'React Avançado',
+  title: 'R123124eact Ava12312312312nçado',
   description: 'TypeScript, ReactJS, NextJS e Styled Components'
 };
 
