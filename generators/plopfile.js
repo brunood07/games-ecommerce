@@ -33,7 +33,7 @@ module.exports = function (plop) {
       },
       {
         type: 'add',
-        path: '../src/components/{{pascalCase name}}/{{pascalCase name}}Props.ts',
+        path: '../src/components/{{pascalCase name}}/{{pascalCase name}}.types.ts',
         templateFile: 'templates/types.ts.hbs'
       }
     ]
