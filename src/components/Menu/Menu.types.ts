@@ -1,3 +1,3 @@
 export type MenuProps = {
-  sample: string;
+  username?: string;
 };

@@ -1,11 +1,22 @@
 import React from 'react';
 import { Story } from '@storybook/react';
-import { Menu } from '.';
 
-const Template: Story = (args) => <Menu {...args} />;
+import { Menu } from '.';
+import { MenuProps } from './Menu.types';
+
+const Template: Story = (args: MenuProps) => <Menu {...args} />;
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = {
+  username: ''
+};
+
+Default.parameters = {
+  layout: 'fullscreen',
+  backgrounds: {
+    default: 'dark'
+  }
+};
 
 export default {
   title: 'Menu',
