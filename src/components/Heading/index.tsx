@@ -1,7 +1,7 @@
 import { HeadingProps } from './Heading.types';
 import { Wrapper } from './styles';
 
-const Heading = ({
+export const Heading = ({
   children,
   color = 'white',
   lineLeft = false,
@@ -13,5 +13,3 @@ const Heading = ({
     </Wrapper>
   );
 };
-
-export default Heading;

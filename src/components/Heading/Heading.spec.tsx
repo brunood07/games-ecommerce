@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 import { renderWithTheme } from '../../utils/tests/helpers';
 import 'jest-styled-components';
 
-import Heading from '.';
+import { Heading } from '.';
 
 describe('Testing the main component', () => {
   it('should render a white heading by default', () => {

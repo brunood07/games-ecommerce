@@ -1,7 +1,7 @@
 import { LogoProps } from './Logo.types';
 import { Wrapper } from './styles';
 
-const Logo = ({
+export const Logo = ({
   color = 'white',
   size = 'normal',
   hideOnMobile = false
@@ -84,5 +84,3 @@ const Logo = ({
     </Wrapper>
   );
 };
-
-export default Logo;

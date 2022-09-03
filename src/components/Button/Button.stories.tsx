@@ -8,12 +8,16 @@ const Template: Story = (args) => <Button {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  children: 'Buy now'
+  children: 'Buy now',
+  size: 'medium',
+  fullWidth: false
 };
 
 export const WithIcon = Template.bind({});
 WithIcon.args = {
   children: 'Buy now',
+  size: 'medium',
+  fullWidth: false,
   icon: <AddShoppingCart />
 };
 

@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react';
 import { renderWithTheme } from '../../utils/tests/helpers';
 
-import Logo from '.';
+import { Logo } from '.';
 
 describe('Testing the main component', () => {
   it('should render a white label by default', () => {
