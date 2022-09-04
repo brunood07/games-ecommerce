@@ -21,6 +21,14 @@ WithIcon.args = {
   icon: <AddShoppingCart />
 };
 
+export const AsLink = Template.bind({});
+AsLink.args = {
+  as: 'a',
+  href: '/link',
+  children: 'Buy now',
+  size: 'large'
+};
+
 export default {
   title: 'Button',
   component: Button,
