@@ -1,5 +1,8 @@
 import { BannerProps } from './Banner.types';
+
 import { Button } from '../Button';
+import { Ribbon } from '../Ribbon';
+
 import { Caption, Image, Subtitle, Title, Wrapper } from './styles';
 
 export const Banner = ({
@@ -7,10 +10,19 @@ export const Banner = ({
   buttonLink,
   img,
   subTitle,
-  title
+  title,
+  ribbon,
+  ribbonSize = 'normal',
+  ribbonColor = 'primary'
 }: BannerProps) => {
   return (
     <Wrapper>
+      {!!ribbon && (
+        <Ribbon color={ribbonColor} size={ribbonSize}>
+          {ribbon}
+        </Ribbon>
+      )}
+
       <Image src={img} role="img" aria-label={title} />
 
       <Caption>
